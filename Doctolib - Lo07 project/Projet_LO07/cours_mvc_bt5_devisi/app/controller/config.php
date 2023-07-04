@@ -9,9 +9,9 @@ if (!defined('DEBUG')) {
 
 // ===============
 // Configuration de la base de données sur dev-isi
-$dsn = 'mysql:dbname=huajohn;host=localhost;charset=utf8';
-$username = 'huajohn';
-$password = 'jorjor123';
+$dsn = 'mysql:dbname=mullerar;host=localhost;charset=utf8';
+$username = 'mullerar';
+$password = 'xxxx';
 
 if (!defined('LOCAL')) {
     define('LOCAL',TRUE);
@@ -19,7 +19,7 @@ if (!defined('LOCAL')) {
 
 if (LOCAL) {
     // Configuration de la base de données sur localhost
-    $dsn = 'mysql:dbname=huajohn;host=localhost;charset=utf8';
+    $dsn = 'mysql:dbname=mullerar;host=localhost;charset=utf8';
     $username = 'root';
     $password = '';
 }
