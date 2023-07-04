@@ -32,4 +32,3 @@ Propose as many filters as you can.
              C and Python code separation
   1. Data structures used to represent the problem must also be created in C and Python
   2. Graphical interfaces in Python are a plus
-  3. Interactions between the C and Python must be done using files.
