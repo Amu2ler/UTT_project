@@ -5,7 +5,38 @@
  #@date 2023/06/03
 #
 
+'''
+This program (PhotoStudio) allows users PhotoStudio is a modern and innovative photo editing application that allows users to create stunning visual effects on their favorite photos.
+The app offers users a way to manage their photo gallery where they can easily upload and access their photos.
+It also offers a wide range of filters and editing options, users can transform their images into masterpieces with just a few clicks.
+This lightweight app is perfect for users who need to store or share their images without taking up too much storage space.
 
+Global Variables:
+    gallery_path: directory for storing the gallery of photos.
+
+
+Functions:
+    list_photos(): Shows the list of available images.
+    show_photo(): show a selected photo on the screen.
+    resize_image(): print the dimension of the image and allow the user to resize it. Export the resulting image and display it.
+    print_image_metadata(): use the pillow library to print all the metadata of the image (Image size, mode, device, datetime taken . . . )
+    apply_filter(): Allow the user to apply a filter on the image and export the result.
+
+
+Buttons:
+    Creates buttons for each action: List Photos, Show Photo, Resize Image, Print Image Metadata, and Apply Filters.
+    Associates each button with its corresponding action function.
+
+Main GUI Loop:
+    Enters the main loop of the GUI to handle user interaction and events.
+
+Note: 
+    1) Make sure to have the PIL library installed before running the program.
+    2) The program assumes the existence of a "gallery" directory to store the photos
+
+To run the program, execute the main.py file. It will launch the PhotoStudio window allowing you to perform various image manipulation tasks.
+For any issues or questions, contact the authors at [arthur.muller@utt.fr // john.hua@utt.fr].
+'''
 
 
 ## Imports
