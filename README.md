@@ -1,2 +1,2 @@
-# DONE
-This folder contains all my finished projects
+# UTT Project
+This folder contains all my UTT finished projects
